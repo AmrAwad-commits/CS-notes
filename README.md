@@ -68,7 +68,7 @@ A collection of a fixed number of elements, all having the same data type.
 ### Struct (Heterogeneous)
 A collection of a fixed number of components (members) accessed by name; members can have different data types.
 
-**Array ** vs **Struct (Heterogeneous)**:
+**Array** vs **Struct (Heterogeneous)**:
 - Array: fixed number of elements, all the *same* type, accessed by index/address.
 - Struct: fixed number of members, can be *different* types, accessed by name.
 
