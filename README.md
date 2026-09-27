@@ -57,7 +57,7 @@ Syntax error · Runtime error · Linker error · Logical error · Semantic error
 
 ## 2. Arrays, Structs & Pointers
 
-### Array
+### Array (Homogeneous)
 A collection of a fixed number of elements, all having the same data type.
 - Arrays are **passed by reference only**.
 - To prevent a function from modifying an array, add `const` before it:
@@ -68,7 +68,7 @@ A collection of a fixed number of elements, all having the same data type.
 ### Struct (Heterogeneous)
 A collection of a fixed number of components (members) accessed by name; members can have different data types.
 
-**Array (Homogeneous)** vs **Struct (Heterogeneous)**:
+**Array ** vs **Struct (Heterogeneous)**:
 - Array: fixed number of elements, all the *same* type, accessed by index/address.
 - Struct: fixed number of members, can be *different* types, accessed by name.
 
